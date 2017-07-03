@@ -417,8 +417,9 @@ pyrOutput* chnsPyramid(float *image, pyrInput *input){
     for (int j = 0; j < nTypes; j++)
 	totalChannels += data[0][j]->channels;
 
-    if(input->concat){
-	int chnsArr[nTypes];
+    if(input->concat)
+	{
+	int* chnsArr = new int[nTypes];
 
 	for (int j = 0; j < nTypes; j++)
 	    chnsArr[j] = data[0][j]->channels;
@@ -447,6 +448,7 @@ pyrOutput* chnsPyramid(float *image, pyrInput *input){
 	    data[i][0]->image = imgC;
 	    data[i][0]->channels = totalChannels;
 	}
+	delete[]chnsArr;
     }
 
 
@@ -468,7 +470,7 @@ pyrOutput* chnsPyramid(float *image, pyrInput *input){
     delete [] isN;
     delete [] lambdas;
     delete [] scaleshw;
-
+	//delete [] chnsArr;
 /*
  * Output
  */

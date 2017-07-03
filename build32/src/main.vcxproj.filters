@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\chnsCompute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\chnsPyramid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\convConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\getScales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\gradientMex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\opencvInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\pedDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\readFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\rgbConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\strongClassifierTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\HIKDATA\code\PedestrianDetector\src\wrappers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\chnsCompute.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\chnsPyramid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\convConst.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\getScales.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\gradientMex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\imPadMex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\imResampleMex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\opencvInterface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\pedDetector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rapidxml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rapidxml_iterators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rapidxml_print.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rapidxml_utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\readFiles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rgbConvert.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\rgbConvertMex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\sse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\strongClassifierTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\HIKDATA\code\PedestrianDetector\include\wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\HIKDATA\code\PedestrianDetector\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5CE33843-24D0-37EA-8A99-AB6BAB309EEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{073DA7F6-3EFE-314F-B70A-F9F796394416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

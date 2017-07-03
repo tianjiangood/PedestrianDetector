@@ -21,7 +21,7 @@ int getScales(float *&scales, float *&scaleshw, int nPerOct, int nOctUp,
     float minSz = (Sz0 < Sz1)? Sz0 : Sz1;
 
     int nScales = floor(nPerOct * (nOctUp+log2(minSz))+1);
-    float scalesTemp[nScales];
+    float *scalesTemp=new float[nScales];
     int d0, d1;
 
     for(int i = 0; i < nScales; i++)
@@ -74,7 +74,8 @@ int getScales(float *&scales, float *&scaleshw, int nPerOct, int nOctUp,
 	scalesTemp[i] = ss[minI];
     }
 
-    int count = 0, keepScales[nScales];
+	int count = 0;
+	int *keepScales = new int[nScales];
     for(int i = 0; i < nScales - 1; i++){
 	if(scalesTemp[i] != scalesTemp[i+1]){
 	    count++;
@@ -101,5 +102,7 @@ int getScales(float *&scales, float *&scaleshw, int nPerOct, int nOctUp,
 	}
     }
 
+	delete[]scalesTemp;
+	delete[]keepScales;
     return count;
 }

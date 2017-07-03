@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\HIKDATA\code\PedestrianDetector\build32\CMakeFiles\d1e8034a74d6c341f7b048331e1a7335\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C8EA1F02-7D3F-3B05-9BE6-E5CCF24DB788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
